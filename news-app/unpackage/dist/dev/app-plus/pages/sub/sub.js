@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"sub { padding-top: ",[0,50],"; }\n",],undefined,{path:"./pages/sub/sub.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/sub/sub.wxml') } }));
