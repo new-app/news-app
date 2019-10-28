@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/my/my",
     "pages/sub/sub",
-    "pages/find/find"
+    "pages/find/find",
+    "pages/newsdetail/newsdetail"
   ],
   "window": {
     "navigationBarTextStyle": "white",
@@ -50,6 +51,6 @@
     "autoclose": false
   },
   "appname": "new-app",
-  "compilerVersion": "2.3.6",
+  "compilerVersion": "2.3.7",
   "usingComponents": {}
 }

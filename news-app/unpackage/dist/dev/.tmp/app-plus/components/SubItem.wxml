@@ -1,0 +1,1 @@
+<view class="sub_item data-v-54f77ccf"><image class="item_img data-v-54f77ccf" style="opacity:1;" src="{{subitem.imgUrl}}"></image><view class="modul data-v-54f77ccf"><view class="_h4 data-v-54f77ccf">{{subitem.classify}}</view><view class="_h5 data-v-54f77ccf">{{subitem.eng}}</view></view></view>
