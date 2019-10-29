@@ -24,6 +24,7 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
+<<<<<<< HEAD
 ._header.data-v-75c3f77e {
   position: fixed;
   top: 0;
@@ -125,5 +126,9 @@
     background: -o-linear-gradient(bottom, #faf4b9, #c69339);
     background: linear-gradient(0deg, #faf4b9, #c69339);
     border-radius: 10rpx;
+=======
+.sub {
+  padding-top: 50rpx;
+>>>>>>> 1a2241522dea49afc73a8305bb29cffaca8bee70
 }
 

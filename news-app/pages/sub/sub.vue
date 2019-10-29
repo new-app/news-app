@@ -1,5 +1,6 @@
 <template>
 	<view class="sub">
+<<<<<<< HEAD
 		<header>
 			<view class="cu-bar search ">
 				<view class="search-form">
@@ -45,10 +46,14 @@
 			<h3>订阅新闻</h3>
 			<NewsItem v-for="(item,index) in newslist" :news="item" :key="index" @click="toDetail(index)"></NewsItem>
 		</view>
+=======
+		订阅
+>>>>>>> 1a2241522dea49afc73a8305bb29cffaca8bee70
 	</view>
 </template>
 
 <script>
+<<<<<<< HEAD
 	import SubItem from "../../components/SubItem.vue"
 	import NewsItem from "../../components/NewsItem.vue"
 	export default {
@@ -104,10 +109,18 @@
 		components: {
 			SubItem,
 			NewsItem
+=======
+	export default {
+		data() {
+			return {
+				
+			};
+>>>>>>> 1a2241522dea49afc73a8305bb29cffaca8bee70
 		}
 	}
 </script>
 
+<<<<<<< HEAD
 <style lang="scss" scoped>
 	header {
 		position: fixed;
@@ -206,4 +219,10 @@
 			}
 		}
 	}
+=======
+<style lang="scss">
+.sub{
+	padding-top: 50upx;
+}
+>>>>>>> 1a2241522dea49afc73a8305bb29cffaca8bee70
 </style>

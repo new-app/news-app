@@ -15,6 +15,7 @@
 
 /*每个页面公共css */
 
+<<<<<<< HEAD
 /* 清除浏览器的默认样式 */
 
 /* 清除内外边距 */
@@ -6179,3 +6180,5 @@ scroll-view.cu-steps .cu-item {
                 transform: translateX(0)
     }
 }
+=======
+>>>>>>> 1a2241522dea49afc73a8305bb29cffaca8bee70

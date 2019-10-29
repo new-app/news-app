@@ -1,7 +1,11 @@
 {
   "navigationStyle": "custom",
+<<<<<<< HEAD
   "usingComponents": {
     "sub-item": "/components/SubItem",
     "news-item": "/components/NewsItem"
   }
+=======
+  "usingComponents": {}
+>>>>>>> 1a2241522dea49afc73a8305bb29cffaca8bee70
 }

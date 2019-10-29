@@ -90,7 +90,11 @@
       }
     },
     "uni-app": {
+<<<<<<< HEAD
       "compilerVersion": "2.3.7",
+=======
+      "compilerVersion": "2.3.6",
+>>>>>>> 1a2241522dea49afc73a8305bb29cffaca8bee70
       "control": "v8",
       "nvueCompiler": "uni-app",
       "renderer": "auto",

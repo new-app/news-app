@@ -1,5 +1,6 @@
 <template>
 	<view class="my">
+<<<<<<< HEAD
 		<view class="top">
 			<view class="left">
 				<h4>孙悟空</h4>
@@ -56,6 +57,9 @@
 				</view>
 			</view>
 		</view>
+=======
+		我的
+>>>>>>> 1a2241522dea49afc73a8305bb29cffaca8bee70
 	</view>
 </template>
 
@@ -63,6 +67,7 @@
 	export default {
 		data() {
 			return {
+<<<<<<< HEAD
 				tablist:[
 					{
 						title:"我的话题",
@@ -93,10 +98,15 @@
 		},
 		components: {
 
+=======
+				
+			};
+>>>>>>> 1a2241522dea49afc73a8305bb29cffaca8bee70
 		}
 	}
 </script>
 
+<<<<<<< HEAD
 <style lang="scss" scoped>
 	.my {
 		background-color: #fff;
@@ -202,4 +212,10 @@
 			font-size: 24upx;
 		}
 	}
+=======
+<style lang="scss">
+ .my{
+	 padding-top: 50upx;
+ }
+>>>>>>> 1a2241522dea49afc73a8305bb29cffaca8bee70
 </style>

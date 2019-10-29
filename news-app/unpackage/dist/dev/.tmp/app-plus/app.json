@@ -3,9 +3,13 @@
     "pages/index/index",
     "pages/my/my",
     "pages/sub/sub",
+<<<<<<< HEAD
     "pages/find/find",
     "pages/newsdetail/newsdetail",
     "pages/video/video"
+=======
+    "pages/find/find"
+>>>>>>> 1a2241522dea49afc73a8305bb29cffaca8bee70
   ],
   "window": {
     "navigationBarTextStyle": "white",
@@ -52,6 +56,10 @@
     "autoclose": false
   },
   "appname": "new-app",
+<<<<<<< HEAD
   "compilerVersion": "2.3.7",
+=======
+  "compilerVersion": "2.3.6",
+>>>>>>> 1a2241522dea49afc73a8305bb29cffaca8bee70
   "usingComponents": {}
 }
