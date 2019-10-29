@@ -13,7 +13,7 @@
 		<view class="box">
 			<h3 class="sub_title">订阅分类</h3>
 			<scroll-view scroll-x class="bg-white nav navs" scroll-with-animation :scroll-left="scrollLeft">
-				<SubItem class="cu-item" v-for="(item,index) in sublist" :key="index" @tap="tabSelect" :data-id="index" :subitem="item">
+				<SubItem class="cu-item" v-for="(item,index) in sublist" :key="index" @click="tabSelect" :data-id="index" :subitem="item">
 				</SubItem>
 			</scroll-view>
 		</view>
@@ -43,7 +43,7 @@
 		</view>
 		<view class="box">
 			<h3>订阅新闻</h3>
-			<NewsItem v-for="(item,index) in newslist" :news="item" :key="index" @tap="toDetail(index)"></NewsItem>
+			<NewsItem v-for="(item,index) in newslist" :news="item" :key="index" @click="toDetail(index)"></NewsItem>
 		</view>
 	</view>
 </template>

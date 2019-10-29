@@ -1,8 +1,8 @@
 <template>
 	<view>
 		<view class="cu-bar backbar">
-			<view class="action">
-				<text class="cuIcon-back" @tap="back"></text>
+			<view class="action"  @click="back">
+				<text class="cuIcon-back"></text>
 			</view>
 			<view class="content text-bold">
 				<image src="../../static/image/myac.png" mode="" class="touxiang"></image>
@@ -11,7 +11,7 @@
 			<button class="sub">订阅</button>
 		</view>
 		<view class="article">
-			<view class="title">{{listitem.title}}{{idx}}</view>
+			<view class="title">{{listitem.title}}</view>
 			<p class="newser">
 				<text>{{listitem.name}}</text>
 				<text>{{listitem.date}}</text>
@@ -36,25 +36,24 @@
 </template>
 
 <script>
+	let idx = null;
 	import Comment from '../../components/Comment.vue'
 	export default {
+		onLoad: (options) => {
+			idx = options.index
+		},
 		data() {
 			return {
 
 				listitem: {},
-				idx:''
+				// idx:idx
+				
 			}
 		},
-		onLoad: (options) => {
-			this.idx = options.index
-		},
+		
 		methods: {
 			back() {
-				uni.navigateBack({
-					delta: 1,
-					animationType: 'pop-out',
-					animationDuration: 200
-				})
+				uni.navigateBack()
 			}
 		},
 		mounted() {
@@ -62,8 +61,9 @@
 			uni.request({
 				url: "http://rap2api.taobao.org/app/mock/234537/get/subnews",
 				success: (res) => {
-					// console.log(res.data.subnews)
-					this.listitem = res.data.subnews[1]
+					console.log(idx)
+					
+					this.listitem = res.data.subnews[idx]
 				}
 			})
 		},

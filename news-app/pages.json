@@ -19,6 +19,13 @@
             "path" : "pages/newsdetail/newsdetail",//新闻详情页
            "style": {"navigationStyle":"custom"}
         }
+        ,{
+            "path" : "pages/video/video",
+           "style": {
+			   "navigationStyle":"custom",
+			   "app-plus":{"titleNView":false}
+		   }
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",

@@ -4,7 +4,8 @@
     "pages/my/my",
     "pages/sub/sub",
     "pages/find/find",
-    "pages/newsdetail/newsdetail"
+    "pages/newsdetail/newsdetail",
+    "pages/video/video"
   ],
   "window": {
     "navigationBarTextStyle": "white",
