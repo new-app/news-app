@@ -3,7 +3,8 @@
 		{
 			"path": "pages/index/index",  //首页
 			"style": {
-				"navigationStyle":"custom"
+				"navigationStyle":"custom",
+				"enablePullDownRefresh":true
 			}
 		}, {
 			"path": "pages/my/my",   //我的
@@ -15,7 +16,27 @@
 			"path": "pages/find/find", //发现
 			"style": {"navigationStyle":"custom"}
 		}
-	],
+	    ,{
+            "path" : "components/search/search", //搜索页面
+            "style" : {"navigationStyle":"custom"}
+        },
+		{
+		    "path" : "pages/BasicLogin/login", //登陆
+		    "style" : {"navigationStyle":"custom"}
+		},
+		{
+		    "path" : "pages/BasicLogin/registration", //注册
+		    "style" : {"navigationStyle":"custom"}
+		},
+		{
+            "path" : "pages/BasicLogin/forget-password", //忘记
+            "style" : {"navigationStyle":"custom"}
+        }
+        ,{
+            "path" : "pages/mydetail/mydetail",
+            "style" : {"navigationStyle":"custom"}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "uni-app",

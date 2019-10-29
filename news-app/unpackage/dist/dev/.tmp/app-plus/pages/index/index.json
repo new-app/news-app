@@ -1,4 +1,8 @@
 {
   "navigationStyle": "custom",
-  "usingComponents": {}
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "swiper": "/components/swiper",
+    "newslist": "/components/newslist"
+  }
 }
