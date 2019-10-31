@@ -1,0 +1,1 @@
+<view class="comments"><view class="comements_title"><view class="line"></view><text>新评论</text><view class="line"></view></view><block wx:for="{{listitem.comments}}" wx:for-item="item" wx:for-index="index" wx:key="index"><comment vue-id="{{'1-'+index}}" item="{{item}}" bind:__l="__l"></comment></block></view>

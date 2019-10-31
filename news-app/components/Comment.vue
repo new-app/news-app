@@ -75,6 +75,7 @@
 			font-weight:700;
 			border-bottom: 1px solid #eee;
 			color:rgba(51,51,51,1);
+			padding-top: 10upx;
 		}
 	}
 </style>

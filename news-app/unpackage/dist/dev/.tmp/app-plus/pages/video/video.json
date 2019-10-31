@@ -1,5 +1,7 @@
 {
   "navigationStyle": "custom",
   "titleNView": false,
-  "usingComponents": {}
+  "usingComponents": {
+    "comment": "/components/Comment"
+  }
 }

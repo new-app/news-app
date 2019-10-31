@@ -43,7 +43,7 @@
 		</view>
 		<view class="box">
 			<h3>订阅新闻</h3>
-			<NewsItem v-for="(item,index) in newslist" :news="item" :key="index" @click="toDetail(index)"></NewsItem>
+			<NewsItem v-for="(item,index) in newslist" :news="item" :key="index" @tap="toDetail(index)"></NewsItem>
 		</view>
 	</view>
 </template>

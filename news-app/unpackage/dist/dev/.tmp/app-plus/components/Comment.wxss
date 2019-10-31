@@ -111,5 +111,6 @@
     font-weight: 700;
     border-bottom: 1px solid #eee;
     color: #333333;
+    padding-top: 10rpx;
 }
 

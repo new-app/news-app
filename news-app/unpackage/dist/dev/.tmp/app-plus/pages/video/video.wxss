@@ -67,4 +67,116 @@
     width: 100%;
     height: 463rpx;
 }
+.text.data-v-6d102d92 {
+  padding: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.text .title.data-v-6d102d92 {
+    font-size: 30rpx;
+    font-family: SourceHanSansCN;
+    color: #333333;
+}
+.text .intro.data-v-6d102d92 {
+    font-size: 24rpx;
+    font-family: SourceHanSansCN;
+    font-weight: 300;
+    color: #333333;
+    line-height: 48rpx;
+    margin: 15rpx 0;
+}
+.text .author.data-v-6d102d92 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.text .author .user.data-v-6d102d92 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+}
+.text .author .user .usericon.data-v-6d102d92 {
+        width: 48rpx;
+        height: 48rpx;
+        background: #17a1ff;
+        border-radius: 24rpx;
+}
+.text .author .user .username.data-v-6d102d92 {
+        font-size: 26rpx;
+        margin-left: 30rpx;
+        font-family: SourceHanSansCN;
+        font-weight: 400;
+        color: #333333;
+}
+.text .author .sub .subcount.data-v-6d102d92 {
+      font-size: 28rpx;
+      font-family: SourceHanSansCN;
+      font-weight: 400;
+      margin-left: 10rpx;
+      color: #333333;
+}
+.rec.data-v-6d102d92 {
+  padding: 30rpx;
+}
+.rec ._h4.data-v-6d102d92 {
+    font-size: 30rpx;
+    font-family: SourceHanSansCN;
+    font-weight: bold;
+    color: #333333;
+}
+.rec .rec_list.data-v-6d102d92 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.comments.data-v-6d102d92 {
+  margin-top: 20rpx;
+  padding-top: 20rpx;
+  background-color: #fff;
+}
+.comments .comements_title.data-v-6d102d92 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 28rpx;
+}
+.comments .comements_title .line.data-v-6d102d92 {
+      width: 50rpx;
+      margin-top: 18rpx;
+      border-top: 3rpx solid #999;
+}
+.comments .comements_title text.data-v-6d102d92 {
+      padding: 0 10rpx;
+}
 

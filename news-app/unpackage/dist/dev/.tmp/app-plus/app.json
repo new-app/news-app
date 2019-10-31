@@ -5,7 +5,8 @@
     "pages/sub/sub",
     "pages/find/find",
     "pages/newsdetail/newsdetail",
-    "pages/video/video"
+    "pages/video/video",
+    "pages/follows/follows"
   ],
   "window": {
     "navigationBarTextStyle": "white",

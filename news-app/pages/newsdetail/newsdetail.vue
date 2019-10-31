@@ -1,7 +1,7 @@
 <template>
 	<view>
 		<view class="cu-bar backbar">
-			<view class="action"  @click="back">
+			<view class="action"  @click="backlast">
 				<text class="cuIcon-back"></text>
 			</view>
 			<view class="content text-bold">
@@ -68,6 +68,9 @@
 			})
 		},
 		methods: {
+			backlast(){
+				uni.navigateBack()
+			}
 
 		},
 		components: {

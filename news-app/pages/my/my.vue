@@ -1,6 +1,7 @@
 <template>
 	<view class="my">
 		<view class="top">
+			<image src="../../static/image/my_bg.png"  class="bg"></image>
 			<view class="left">
 				<h4>孙悟空</h4>
 				<p class="intro">填写个人简介，让更多人了解你</p>
@@ -108,9 +109,18 @@
 			padding: 148upx 36upx 63upx;
 			background-color: #333;
 			display: flex;
-			background: url(../../static/image/my_bg.png) no-repeat;
+			background: url(../../static/image/back.png) no-repeat;
 			background-size: 100% 100%;
+			position: relative;
 			justify-content: space-between;
+			.bg {
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				z-index: -1;
+			}
 
 			.left {
 				display: flex;
@@ -140,7 +150,8 @@
 						
 					}
 					.line {
-						height: 100%;
+						height: 40upx;
+						margin-top: 20upx;
 						border-left: 1px solid #fff;
 					}
 				}

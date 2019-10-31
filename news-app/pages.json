@@ -26,6 +26,10 @@
 			   "app-plus":{"titleNView":false}
 		   }
         }
+        ,{
+            "path" : "pages/follows/follows",//关注列表
+            "style" : {"navigationStyle":"custom"}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
